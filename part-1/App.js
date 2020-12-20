@@ -1,10 +1,6 @@
-const App = () => {
-    return (
+const App = () => (
         <div>
             <FirstComponent />
             <NamedComponent name="Bob Ross" />
         </div>
-    )
-}
-
-ReactDOM.render(<App />, document.getElementById("root"));
+)

@@ -1,5 +1,3 @@
-const FirstComponent = () => (
-    <h1>
-        My very first component
-    </h1>
-)
+const FirstComponent = () => {
+    return <h1>My very first component</h1>
+}
